@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<queue>
 using namespace std;
 
 
@@ -64,10 +65,13 @@ void exitPoint(vector<vector<int> >& arr){
 
 
 int main(){
+    queue<vector<int> > qu;
+    qu.push(vector<int> {1,2});
+    vector<int> arr=qu.front();
 
-    vector<int> arr{3,2,8,1};
+    // vector<int> arr{3,2,8,1};
 
-    cout<<calcIArrI(arr)<<endl;
+    // cout<<calcIArrI(arr)<<endl;
 
 
     return 0;
