@@ -35,7 +35,7 @@ int findLastOcc(vector<int>& arr,int data, int idx){
 }
 
  vector<int> allIndices(vector<int>& arr,int idx,int data,int count){
-        
+        // all index
         if(idx==arr.size()){
             vector<int> baseRes(count,0);
             return baseRes;
