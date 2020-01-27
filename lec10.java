@@ -10,6 +10,8 @@ class lec10{
             }
     }
 
+    
+
     public static boolean isPalindrome(String str){
         boolean palin=true;
 

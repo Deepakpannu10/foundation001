@@ -25,7 +25,6 @@ class lec09{
     }
 
     public static int[] allIndices(int[] arr,int idx,int data,int count){
-        
         if(idx==arr.length){
             int[] baseRes =  new int[count];
             return baseRes;
