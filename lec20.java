@@ -20,7 +20,7 @@ class lec20{
 
     public static int knapsack0_1(int[] cost,int[] wt,int cap){
         int[][] dp = new int[cost.length+1][cap+1];
-        for(int i=1;i<dp.length;i++){
+        for(int i =1;i<dp.length;i++){
             for(int j=0;j<dp[0].length;j++){
                 dp[i][j] = dp[i-1][j]; // na ki call
 
